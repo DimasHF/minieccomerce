@@ -7,3 +7,9 @@ type User struct {
 	Password string `json:"password" db:"password"`
 	Role     string `json:"role" db:"role"`
 }
+
+type UserRequest struct {
+	Name     string `json:"name"`
+	Username string `json:"username"`
+	Password string `json:"password"`
+}
